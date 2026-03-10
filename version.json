@@ -1,20 +1,20 @@
 {
-    "changelog":  [
-                      "See release notes on GitHub"
-                  ],
-    "version":  "1.1.0",
-    "build_number":  0,
-    "downloads":  {
-                      "windows":  {
-                                      "size_mb":  19,
-                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v1.1.0/Breathe_Setup_1.1.0.exe"
-                                  },
-                      "android":  {
-                                      "size_mb":  67,
-                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v1.1.0/Breathe_v1.1.0.apk"
-                                  }
-                  },
-    "force_update":  false,
-    "min_version":  "1.0.0",
-    "release_date":  "2026-03-10"
+  "version": "1.1.0",
+  "build_number": 0,
+  "release_date": "2026-03-10",
+  "changelog": [
+    "Admin via Task Scheduler (no UAC)",
+    "Real VPN connection check",
+    "Process crash detection"
+  ],
+  "downloads": {
+    "android": {
+      "size_mb": 67,
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v1.1.0/Breathe_Android_1.1.0.apk"
+    },
+    "windows": {
+      "size_mb": 19,
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v1.1.0/Breathe_Windows_1.1.0_Setup.exe"
+    }
+  }
 }
