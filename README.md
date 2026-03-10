@@ -1,6 +1,6 @@
-# Breathe VPN — Releases
+# Breathe — Releases
 
-Official releases for **Breathe VPN** client — a multi-protocol VPN with adaptive traffic masking.
+Official releases for **Breathe** client — a multi-protocol VPN with adaptive traffic masking.
 
 ## Downloads
 
