@@ -29,7 +29,7 @@ The app checks for updates automatically on startup by reading `version.json` fr
 
 ## Features
 
-- 🔐 Multi-protocol cascade (Hysteria2, VLESS Reality, VLESS+CF)
+- 🔐 Multi-protocol cascade
 - 🎭 Adaptive traffic masking
 - 🖥️ Windows & Android support
 - 🔀 Split Tunneling (per-app on Android, per-process on Windows)
