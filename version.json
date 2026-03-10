@@ -1,20 +1,21 @@
 {
   "version": "1.1.0",
   "build_number": 0,
-  "release_date": "2026-03-10",
   "changelog": [
-    "Admin via Task Scheduler (no UAC)",
-    "Real VPN connection check",
-    "Process crash detection"
+    "Real-time ping graph",
+    "Packet loss monitoring",
+    "Admin via Task Scheduler",
+    "Platform-specific split tunneling"
   ],
+  "release_date": "2026-03-10",
   "downloads": {
     "android": {
-      "size_mb": 67,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v1.1.0/Breathe_Android_1.1.0.apk"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v1.1.0/Breathe_Android_1.1.0.apk",
+      "size_mb": 68
     },
     "windows": {
-      "size_mb": 19,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v1.1.0/Breathe_Windows_1.1.0_Setup.exe"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v1.1.0/Breathe_Windows_1.1.0_Setup.exe",
+      "size_mb": 19
     }
   }
 }
