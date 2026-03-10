@@ -1,23 +1,20 @@
 {
-  "version": "1.1.0",
-  "build_number": 3,
-  "release_date": "2026-03-10",
-  "changelog": [
-    "Unified Config Builder (cross-platform)",
-    "Windows VPN Engine (sing-box.exe)",
-    "Per-process Split Tunnel on Windows",
-    "Windows installer with auto-start"
-  ],
-  "downloads": {
-    "windows": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v1.1.0/Breathe_Setup_1.1.0.exe",
-      "size_mb": 19
-    },
-    "android": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v1.1.0/Breathe_v1.1.0.apk",
-      "size_mb": 67
-    }
-  },
-  "min_version": "1.0.0",
-  "force_update": false
+    "changelog":  [
+                      "See release notes on GitHub"
+                  ],
+    "version":  "1.1.0",
+    "build_number":  0,
+    "downloads":  {
+                      "windows":  {
+                                      "size_mb":  19,
+                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v1.1.0/Breathe_Setup_1.1.0.exe"
+                                  },
+                      "android":  {
+                                      "size_mb":  67,
+                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v1.1.0/Breathe_v1.1.0.apk"
+                                  }
+                  },
+    "force_update":  false,
+    "min_version":  "1.0.0",
+    "release_date":  "2026-03-10"
 }
