@@ -1,18 +1,20 @@
 {
-  "version": "1.1.21",
-  "min_version": "1.0.0",
-  "force_update": false,
-  "release_date": "2026-03-17",
-  "changelog": [
-    "Device codes now appear in device list",
-    "Upgrade-to-account button for non-owner devices",
-    "DNS fix: reverted to 8.8.8.8",
-    "Fixed /api/status 500 error"
-  ],
-  "downloads": {
-    "windows": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v1.1.21/Breathe_Windows_1.1.21_Setup.exe",
-      "size_mb": 21
-    }
-  }
+    "changelog":  [
+                      "See release notes on GitHub"
+                  ],
+    "version":  "1.1.22",
+    "build_number":  22,
+    "downloads":  {
+                      "windows":  {
+                                      "size_mb":  21,
+                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v1.1.22/Breathe_Windows_1.1.22_Setup.exe"
+                                  },
+                      "android":  {
+                                      "size_mb":  69,
+                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v1.1.22/Breathe_Android_1.1.22.apk"
+                                  }
+                  },
+    "force_update":  false,
+    "min_version":  "1.0.0",
+    "release_date":  "2026-03-17"
 }
