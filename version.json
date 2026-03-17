@@ -2,16 +2,16 @@
     "changelog":  [
                       "See release notes on GitHub"
                   ],
-    "version":  "1.1.14",
-    "build_number":  14,
+    "version":  "1.1.15",
+    "build_number":  15,
     "downloads":  {
                       "windows":  {
                                       "size_mb":  21,
-                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v1.1.14/Breathe_Windows_1.1.14_Setup.exe"
+                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v1.1.15/Breathe_Windows_1.1.15_Setup.exe"
                                   },
                       "android":  {
                                       "size_mb":  69,
-                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v1.1.14/Breathe_Android_1.1.14.apk"
+                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v1.1.15/Breathe_Android_1.1.15.apk"
                                   }
                   },
     "force_update":  false,
