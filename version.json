@@ -2,16 +2,16 @@
     "changelog":  [
                       "See release notes on GitHub"
                   ],
-    "version":  "2.0.2",
-    "build_number":  2,
+    "version":  "2.0.3",
+    "build_number":  3,
     "downloads":  {
                       "windows":  {
                                       "size_mb":  29,
-                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.2/Breathe_Windows_2.0.2_Setup.exe"
+                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.3/Breathe_Windows_2.0.3_Setup.exe"
                                   },
                       "android":  {
                                       "size_mb":  69,
-                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.2/Breathe_Android_2.0.2.apk"
+                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.3/Breathe_Android_2.0.3.apk"
                                   }
                   },
     "force_update":  false,
