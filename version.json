@@ -1,22 +1,23 @@
 {
+  "force_update": false,
   "changelog": [
-    "Исправлена авторизация на мобильных устройствах",
-    "Исправлено отображение VPN-статуса процессов",
-    "Авто-changelog в уведомлениях об обновлении"
+    "Установка APK-обновлений на Android",
+    "Анимация загрузки обновления",
+    "Логотип на экране запуска",
+    "Авто-changelog из git коммитов"
   ],
-  "version": "2.0.4",
-  "build_number": 4,
+  "version": "2.0.5",
   "downloads": {
     "windows": {
       "size_mb": 29,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.0.4/Breathe_Windows_2.0.4_Setup.exe"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.0.5/Breathe_Windows_2.0.5_Setup.exe"
     },
     "android": {
-      "size_mb": 69,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.0.4/Breathe_Android_2.0.4.apk"
+      "size_mb": 70,
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.0.5/Breathe_Android_2.0.5.apk"
     }
   },
-  "force_update": false,
   "min_version": "1.0.0",
+  "build_number": 5,
   "release_date": "2026-03-24"
 }
