@@ -9,16 +9,16 @@
                       "Protected state + infinite reconnect + two-indicator UI",
                       "Apply firewall rules BEFORE engine.start, remove on error"
                   ],
-    "version":  "2.0.6",
-    "build_number":  6,
+    "version":  "2.0.7",
+    "build_number":  7,
     "downloads":  {
                       "windows":  {
                                       "size_mb":  29,
-                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.6/Breathe_Windows_2.0.6_Setup.exe"
+                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.7/Breathe_Windows_2.0.7_Setup.exe"
                                   },
                       "android":  {
                                       "size_mb":  69,
-                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.6/Breathe_Android_2.0.6.apk"
+                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.7/Breathe_Android_2.0.7.apk"
                                   }
                   },
     "force_update":  false,
