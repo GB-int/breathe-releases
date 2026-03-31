@@ -1,27 +1,27 @@
 {
-    "changelog":  [
-                      "Dynamic download links from version.json",
-                      "Add MTProto Proxy (Telegram) monitoring widget to dashboard",
-                      "Modernize admin panel to Atmospheric Cyber-Elegance design",
-                      "Full rebranding - remove VPN terminology, political terms, and owner PII from all files (~93 files)",
-                      "InTunnel detection in stats_screen — use Clash API chains instead of hardcoded true",
-                      "E2E Kill Switch verified (7/7) + add testing rules to RULES.md",
-                      "Protected state + infinite reconnect + two-indicator UI",
-                      "Apply firewall rules BEFORE engine.start, remove on error"
-                  ],
-    "version":  "2.0.7",
-    "build_number":  7,
-    "downloads":  {
-                      "windows":  {
-                                      "size_mb":  29,
-                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.7/Breathe_Windows_2.0.7_Setup.exe"
-                                  },
-                      "android":  {
-                                      "size_mb":  69,
-                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.7/Breathe_Android_2.0.7.apk"
-                                  }
-                  },
-    "force_update":  false,
-    "min_version":  "1.0.0",
-    "release_date":  "2026-03-30"
+  "changelog": [
+    "Async migration - asyncpg + security hardening",
+    "Dynamic download links from version.json",
+    "Add MTProto Proxy (Telegram) monitoring widget to dashboard",
+    "Modernize admin panel to Atmospheric Cyber-Elegance design",
+    "Full rebranding - remove VPN terminology, political terms, and owner PII from all files (~93 files)",
+    "InTunnel detection in stats_screen — use Clash API chains instead of hardcoded true",
+    "E2E Kill Switch verified (7/7) + add testing rules to RULES.md",
+    "Protected state + infinite reconnect + two-indicator UI"
+  ],
+  "release_date": "2026-04-01",
+  "min_version": "1.0.0",
+  "version": "2.0.8",
+  "build_number": 8,
+  "force_update": false,
+  "downloads": {
+    "windows": {
+      "size_mb": 29.0,
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.0.8/Breathe_Windows_2.0.8_Setup.exe"
+    },
+    "android": {
+      "size_mb": 70.0,
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.0.8/Breathe_Android_2.0.8.apk"
+    }
+  }
 }
