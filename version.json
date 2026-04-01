@@ -9,16 +9,16 @@
                       "Add MTProto Proxy (Telegram) monitoring widget to dashboard",
                       "Modernize admin panel to Atmospheric Cyber-Elegance design"
                   ],
-    "version":  "2.0.15",
-    "build_number":  15,
+    "version":  "2.0.17",
+    "build_number":  17,
     "downloads":  {
                       "windows":  {
                                       "size_mb":  29,
-                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.15/Breathe_Windows_2.0.15_Setup.exe"
+                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.17/Breathe_Windows_2.0.17_Setup.exe"
                                   },
                       "android":  {
                                       "size_mb":  70,
-                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.15/Breathe_Android_2.0.15.apk"
+                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.17/Breathe_Android_2.0.17.apk"
                                   }
                   },
     "force_update":  false,
