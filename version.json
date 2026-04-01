@@ -9,16 +9,16 @@
                       "Relay only for mobile, editable domain presets",
                       "Periodic update check every 3 hours"
                   ],
-    "version":  "2.0.18",
-    "build_number":  18,
+    "version":  "2.0.19",
+    "build_number":  19,
     "downloads":  {
                       "windows":  {
                                       "size_mb":  29,
-                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.18/Breathe_Windows_2.0.18_Setup.exe"
+                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.19/Breathe_Windows_2.0.19_Setup.exe"
                                   },
                       "android":  {
                                       "size_mb":  70,
-                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.18/Breathe_Android_2.0.18.apk"
+                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.19/Breathe_Android_2.0.19.apk"
                                   }
                   },
     "force_update":  false,
