@@ -1,24 +1,24 @@
 {
     "changelog":  [
+                      "Infra: extract bot and alert workers",
+                      "Infra: move runtime state to redis",
+                      "Infra: add scale backlog and redis config base",
+                      "Archive legacy client and add scale migration plan",
+                      "Implement vpn_core package, Windows installer, and v2 application architecture",
                       "Restore relay for all platforms — direct Aeza NL unstable from RU ISPs",
                       "Relay only for mobile, editable domain presets",
-                      "Periodic update check every 3 hours",
-                      "Dynamic speed bars, tray retry, version display, session cleanup",
-                      "Async migration - asyncpg + security hardening",
-                      "Dynamic download links from version.json",
-                      "Add MTProto Proxy (Telegram) monitoring widget to dashboard",
-                      "Modernize admin panel to Atmospheric Cyber-Elegance design"
+                      "Periodic update check every 3 hours"
                   ],
-    "version":  "2.0.17",
-    "build_number":  17,
+    "version":  "2.0.18",
+    "build_number":  18,
     "downloads":  {
                       "windows":  {
                                       "size_mb":  29,
-                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.17/Breathe_Windows_2.0.17_Setup.exe"
+                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.18/Breathe_Windows_2.0.18_Setup.exe"
                                   },
                       "android":  {
                                       "size_mb":  70,
-                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.17/Breathe_Android_2.0.17.apk"
+                                      "url":  "https://github.com/GB-int/breathe-releases/releases/download/v2.0.18/Breathe_Android_2.0.18.apk"
                                   }
                   },
     "force_update":  false,
