@@ -1,27 +1,27 @@
 {
-  "downloads": {
-    "android": {
-      "size_mb": 70.0,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.2.2/Breathe_Android_2.2.2.apk"
-    },
-    "windows": {
-      "size_mb": 21.0,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.2.2/Breathe_Windows_2.2.2_Setup.exe"
-    }
-  },
-  "release_date": "2026-04-04",
-  "version": "2.2.2",
-  "build_number": 2,
+  "version": "2.2.3",
   "force_update": false,
+  "release_date": "2026-04-04",
+  "min_version": "1.0.0",
+  "build_number": 3,
   "changelog": [
+    "Stabilize android mobile-data transport",
+    "Ops: align deploy automation with canonical layout",
+    "Clean root layout and archive legacy deploy files",
+    "Repo: canonicalize prod beta deploy layout",
+    "Show current release state in admin header",
     "Harden release builder against stale artifacts",
     "Ui: compact update broadcast controls in admin header",
-    "Add release guardrails and update broadcast",
-    "Ops: fix prod worker environment wiring",
-    "Finalize v2 beta client and control plane updates",
-    "Unify client split tunnel modules",
-    "Restore panel template compatibility",
-    "Ops: widen v2 unit pythonpath"
+    "Add release guardrails and update broadcast"
   ],
-  "min_version": "1.0.0"
+  "downloads": {
+    "android": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.2.3/Breathe_Android_2.2.3.apk",
+      "size_mb": 70.0
+    },
+    "windows": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.2.3/Breathe_Windows_2.2.3_Setup.exe",
+      "size_mb": 21.0
+    }
+  }
 }
