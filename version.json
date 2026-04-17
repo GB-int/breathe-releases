@@ -1,9 +1,18 @@
 {
-  "min_version": "1.0.0",
-  "version": "2.3.0",
-  "release_date": "2026-04-17",
-  "force_update": false,
   "build_number": 0,
+  "version": "2.3.0",
+  "force_update": false,
+  "release_date": "2026-04-17",
+  "changelog": [
+    "Reuse existing GitHub release during publish",
+    "Inline Android VPNService route helpers for release build",
+    "Fix Android libbox compatibility for release build",
+    "Finalize slots billing, payment fixes and release branding",
+    "Fix release wrapper roots",
+    "Add client release wrapper",
+    "Finalize prod rebuild and release gating",
+    "Add local prod payload push wrapper"
+  ],
   "downloads": {
     "android": {
       "size_mb": 89,
@@ -14,14 +23,5 @@
       "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.0/Breathe_Windows_2.3.0_Setup.exe"
     }
   },
-  "changelog": [
-    "Fix release wrapper roots",
-    "Add client release wrapper",
-    "Finalize prod rebuild and release gating",
-    "Add local prod payload push wrapper",
-    "Fix prod rollout for non-git live path",
-    "Add scripted prod backup rollout flow",
-    "Prepare prod rollout from beta parity",
-    "Log beta reality-over-warp rollout"
-  ]
+  "min_version": "1.0.0"
 }
