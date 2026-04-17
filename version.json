@@ -1,27 +1,27 @@
 {
-  "build_number": 0,
-  "version": "2.3.0",
+  "version": "2.3.1",
   "force_update": false,
-  "release_date": "2026-04-17",
+  "downloads": {
+    "windows": {
+      "size_mb": 29,
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.1/Breathe_Windows_2.3.1_Setup.exe"
+    },
+    "android": {
+      "size_mb": 89,
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.1/Breathe_Android_2.3.1.apk"
+    }
+  },
+  "build_number": 1,
+  "min_version": "1.0.0",
   "changelog": [
+    "Document v2.3.0 release completion",
     "Reuse existing GitHub release during publish",
     "Inline Android VPNService route helpers for release build",
     "Fix Android libbox compatibility for release build",
     "Finalize slots billing, payment fixes and release branding",
     "Fix release wrapper roots",
     "Add client release wrapper",
-    "Finalize prod rebuild and release gating",
-    "Add local prod payload push wrapper"
+    "Finalize prod rebuild and release gating"
   ],
-  "downloads": {
-    "android": {
-      "size_mb": 89,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.0/Breathe_Android_2.3.0.apk"
-    },
-    "windows": {
-      "size_mb": 29,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.0/Breathe_Windows_2.3.0_Setup.exe"
-    }
-  },
-  "min_version": "1.0.0"
+  "release_date": "2026-04-17"
 }
