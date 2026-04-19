@@ -9,19 +9,19 @@
     "Finalize slots billing, payment fixes and release branding",
     "Fix release wrapper roots"
   ],
-  "build_number": 1,
-  "version": "2.3.1",
   "release_date": "2026-04-19",
   "downloads": {
     "android": {
       "size_mb": 89,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.1/Breathe_Android_2.3.1.apk"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.2/Breathe_Android_2.3.2.apk"
     },
     "windows": {
       "size_mb": 29,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.1/Breathe_Windows_2.3.1_Setup.exe"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.2/Breathe_Windows_2.3.2_Setup.exe"
     }
   },
+  "force_update": false,
+  "version": "2.3.2",
   "min_version": "1.0.0",
-  "force_update": false
+  "build_number": 2
 }
