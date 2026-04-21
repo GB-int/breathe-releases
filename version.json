@@ -1,15 +1,4 @@
 {
-  "downloads": {
-    "windows": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.3/Breathe_Windows_2.3.3_Setup.exe",
-      "size_mb": 29
-    },
-    "android": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.3/Breathe_Android_2.3.3.apk",
-      "size_mb": 89
-    }
-  },
-  "min_version": "1.0.0",
   "changelog": [
     "Fix Telegram account link launch",
     "Fix bot worker runtime facade",
@@ -20,8 +9,19 @@
     "Reuse existing GitHub release during publish",
     "Inline Android VPNService route helpers for release build"
   ],
-  "version": "2.3.3",
-  "force_update": false,
   "release_date": "2026-04-21",
-  "build_number": 3
+  "force_update": false,
+  "min_version": "1.0.0",
+  "build_number": 4,
+  "downloads": {
+    "android": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.4/Breathe_Android_2.3.4.apk",
+      "size_mb": 89
+    },
+    "windows": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.4/Breathe_Windows_2.3.4_Setup.exe",
+      "size_mb": 29
+    }
+  },
+  "version": "2.3.4"
 }
