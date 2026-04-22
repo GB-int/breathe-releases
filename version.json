@@ -1,27 +1,27 @@
 {
   "min_version": "1.0.0",
-  "build_number": 6,
-  "version": "2.3.6",
+  "build_number": 7,
   "changelog": [
+    "Hotfix subscription status query for config load",
     "Fix admin panel CSRF and users page query load",
     "Document client release 2.3.4",
     "Fix Telegram account link launch",
     "Fix bot worker runtime facade",
     "Normalize Alembic heads",
     "Fix beta observability smoke collection",
-    "Add beta observability diagnostics",
-    "Document v2.3.0 release completion"
+    "Add beta observability diagnostics"
   ],
   "release_date": "2026-04-22",
   "force_update": false,
   "downloads": {
-    "windows": {
-      "size_mb": 29,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.6/Breathe_Windows_2.3.6_Setup.exe"
-    },
     "android": {
-      "size_mb": 89,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.6/Breathe_Android_2.3.6.apk"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.7/Breathe_Android_2.3.7.apk",
+      "size_mb": 89
+    },
+    "windows": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.7/Breathe_Windows_2.3.7_Setup.exe",
+      "size_mb": 29
     }
-  }
+  },
+  "version": "2.3.7"
 }
