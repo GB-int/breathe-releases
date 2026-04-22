@@ -1,4 +1,7 @@
 {
+  "min_version": "1.0.0",
+  "build_number": 6,
+  "version": "2.3.6",
   "changelog": [
     "Fix admin panel CSRF and users page query load",
     "Document client release 2.3.4",
@@ -9,19 +12,16 @@
     "Add beta observability diagnostics",
     "Document v2.3.0 release completion"
   ],
-  "build_number": 5,
-  "release_date": "2026-04-21",
+  "release_date": "2026-04-22",
   "force_update": false,
-  "min_version": "1.0.0",
-  "version": "2.3.5",
   "downloads": {
-    "android": {
-      "size_mb": 89,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.5/Breathe_Android_2.3.5.apk"
-    },
     "windows": {
       "size_mb": 29,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.5/Breathe_Windows_2.3.5_Setup.exe"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.6/Breathe_Windows_2.3.6_Setup.exe"
+    },
+    "android": {
+      "size_mb": 89,
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.6/Breathe_Android_2.3.6.apk"
     }
   }
 }
