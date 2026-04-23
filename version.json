@@ -1,18 +1,5 @@
 {
-  "version": "2.3.9",
-  "build_number": 9,
-  "downloads": {
-    "windows": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.9/Breathe_Windows_2.3.9_Setup.exe",
-      "size_mb": 29
-    },
-    "android": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.9/Breathe_Android_2.3.9.apk",
-      "size_mb": 89
-    }
-  },
   "release_date": "2026-04-23",
-  "force_update": false,
   "changelog": [
     "Document canonical script map",
     "Publish client hotfix 2.3.7 for updater and control plane",
@@ -23,5 +10,18 @@
     "Fix bot worker runtime facade",
     "Normalize Alembic heads"
   ],
-  "min_version": "1.0.0"
+  "force_update": false,
+  "version": "2.3.10",
+  "build_number": 10,
+  "min_version": "1.0.0",
+  "downloads": {
+    "android": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.10/Breathe_Android_2.3.10.apk",
+      "size_mb": 89
+    },
+    "windows": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.10/Breathe_Windows_2.3.10_Setup.exe",
+      "size_mb": 29
+    }
+  }
 }
