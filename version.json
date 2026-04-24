@@ -1,27 +1,27 @@
 {
-  "min_version": "1.0.0",
-  "release_date": "2026-04-24",
-  "force_update": false,
-  "version": "2.3.11",
-  "downloads": {
-    "windows": {
-      "size_mb": 29,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.11/Breathe_Windows_2.3.11_Setup.exe"
-    },
-    "android": {
-      "size_mb": 89,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.11/Breathe_Android_2.3.11.apk"
-    }
-  },
   "changelog": [
+    "Fix linked device code relink flow",
     "Document canonical script map",
     "Publish client hotfix 2.3.7 for updater and control plane",
     "Hotfix subscription status query for config load",
     "Fix admin panel CSRF and users page query load",
     "Document client release 2.3.4",
     "Fix Telegram account link launch",
-    "Fix bot worker runtime facade",
-    "Normalize Alembic heads"
+    "Fix bot worker runtime facade"
   ],
-  "build_number": 11
+  "downloads": {
+    "windows": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.12/Breathe_Windows_2.3.12_Setup.exe",
+      "size_mb": 29
+    },
+    "android": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.12/Breathe_Android_2.3.12.apk",
+      "size_mb": 89
+    }
+  },
+  "version": "2.3.12",
+  "build_number": 12,
+  "min_version": "1.0.0",
+  "force_update": false,
+  "release_date": "2026-04-24"
 }
