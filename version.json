@@ -1,4 +1,19 @@
 {
+  "force_update": false,
+  "min_version": "1.0.0",
+  "downloads": {
+    "windows": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.13/Breathe_Windows_2.3.13_Setup.exe",
+      "size_mb": 29
+    },
+    "android": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.13/Breathe_Android_2.3.13.apk",
+      "size_mb": 89
+    }
+  },
+  "release_date": "2026-04-24",
+  "version": "2.3.13",
+  "build_number": 13,
   "changelog": [
     "Fix linked device code relink flow",
     "Document canonical script map",
@@ -8,20 +23,5 @@
     "Document client release 2.3.4",
     "Fix Telegram account link launch",
     "Fix bot worker runtime facade"
-  ],
-  "downloads": {
-    "windows": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.12/Breathe_Windows_2.3.12_Setup.exe",
-      "size_mb": 29
-    },
-    "android": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.12/Breathe_Android_2.3.12.apk",
-      "size_mb": 89
-    }
-  },
-  "version": "2.3.12",
-  "build_number": 12,
-  "min_version": "1.0.0",
-  "force_update": false,
-  "release_date": "2026-04-24"
+  ]
 }
