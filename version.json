@@ -1,5 +1,18 @@
 {
+  "version": "2.3.15",
+  "min_version": "1.0.0",
   "force_update": false,
+  "build_number": 15,
+  "downloads": {
+    "android": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.15/Breathe_Android_2.3.15.apk",
+      "size_mb": 89
+    },
+    "windows": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.15/Breathe_Windows_2.3.15_Setup.exe",
+      "size_mb": 29
+    }
+  },
   "changelog": [
     "Fix linked device code relink flow",
     "Document canonical script map",
@@ -10,18 +23,5 @@
     "Fix Telegram account link launch",
     "Fix bot worker runtime facade"
   ],
-  "release_date": "2026-04-24",
-  "downloads": {
-    "android": {
-      "size_mb": 89,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.14/Breathe_Android_2.3.14.apk"
-    },
-    "windows": {
-      "size_mb": 29,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.14/Breathe_Windows_2.3.14_Setup.exe"
-    }
-  },
-  "build_number": 14,
-  "version": "2.3.14",
-  "min_version": "1.0.0"
+  "release_date": "2026-04-26"
 }
