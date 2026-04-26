@@ -1,27 +1,23 @@
 {
+  "version": "2.3.16",
+  "build_number": 16,
+  "release_date": "2026-04-26",
+  "changelog": [
+    "Windows-клиент устанавливается и запускается как Breathe.exe",
+    "Исправлен postinstall-запуск installer без CreateProcess code 740",
+    "Исправлено кэширование force_relay, чтобы протоколы не пропадали после fallback",
+    "Собраны свежие Windows и Android артефакты 2.3.16"
+  ],
   "downloads": {
-    "android": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.16/Breathe_Android_2.3.16.apk",
-      "size_mb": 89
-    },
     "windows": {
       "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.16/Breathe_Windows_2.3.16_Setup.exe",
       "size_mb": 29
+    },
+    "android": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.16/Breathe_Android_2.3.16.apk",
+      "size_mb": 89
     }
   },
-  "changelog": [
-    "Harden client release workflow",
-    "Add relay fallback for direct connectivity failures",
-    "Fix linked device code relink flow",
-    "Document canonical script map",
-    "Publish client hotfix 2.3.7 for updater and control plane",
-    "Hotfix subscription status query for config load",
-    "Fix admin panel CSRF and users page query load",
-    "Document client release 2.3.4"
-  ],
-  "build_number": 16,
-  "release_date": "2026-04-26",
-  "version": "2.3.16",
   "min_version": "1.0.0",
   "force_update": false
 }
