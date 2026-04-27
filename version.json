@@ -1,23 +1,24 @@
 {
-  "version": "2.3.16",
-  "build_number": 16,
-  "release_date": "2026-04-26",
-  "changelog": [
-    "Windows-клиент устанавливается и запускается как Breathe.exe",
-    "Исправлен postinstall-запуск installer без CreateProcess code 740",
-    "Исправлено кэширование force_relay, чтобы протоколы не пропадали после fallback",
-    "Собраны свежие Windows и Android артефакты 2.3.16"
-  ],
+  "build_number": 17,
+  "release_date": "2026-04-27",
+  "force_update": false,
+  "version": "2.3.17",
   "downloads": {
-    "windows": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.16/Breathe_Windows_2.3.16_Setup.exe",
-      "size_mb": 29
-    },
     "android": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.16/Breathe_Android_2.3.16.apk",
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.17/Breathe_Android_2.3.17.apk",
       "size_mb": 89
+    },
+    "windows": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.17/Breathe_Windows_2.3.17_Setup.exe",
+      "size_mb": 29
     }
   },
   "min_version": "1.0.0",
-  "force_update": false
+  "changelog": [
+    "Fixed Windows default interface detection for Wi-Fi and mixed adapter setups.",
+    "Improved Windows route safeguards so control-plane traffic stays reachable during strict TUN routing.",
+    "Made Auto mode reuse the last successful protocol and avoid slow full protocol scans on every connect.",
+    "Corrected Naive production port source of truth.",
+    "Cleaned client core structure and restored full analyzer/test coverage."
+  ]
 }
