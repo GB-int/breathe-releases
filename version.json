@@ -1,24 +1,23 @@
 {
-  "build_number": 17,
-  "release_date": "2026-04-27",
+  "min_version": "1.0.0",
+  "changelog": [
+    "Fixed Windows false connected state when the public IP did not change.",
+    "Added tunnel public IPv4 validation before marking desktop VPN as connected.",
+    "Reduced Windows connect time by skipping routine network snapshots in release builds.",
+    "Made direct public IP detection faster with bounded parallel probes."
+  ],
   "force_update": false,
-  "version": "2.3.17",
   "downloads": {
     "android": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.17/Breathe_Android_2.3.17.apk",
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.18/Breathe_Android_2.3.18.apk",
       "size_mb": 89
     },
     "windows": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.17/Breathe_Windows_2.3.17_Setup.exe",
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.18/Breathe_Windows_2.3.18_Setup.exe",
       "size_mb": 29
     }
   },
-  "min_version": "1.0.0",
-  "changelog": [
-    "Fixed Windows default interface detection for Wi-Fi and mixed adapter setups.",
-    "Improved Windows route safeguards so control-plane traffic stays reachable during strict TUN routing.",
-    "Made Auto mode reuse the last successful protocol and avoid slow full protocol scans on every connect.",
-    "Corrected Naive production port source of truth.",
-    "Cleaned client core structure and restored full analyzer/test coverage."
-  ]
+  "version": "2.3.18",
+  "build_number": 18,
+  "release_date": "2026-04-27"
 }
