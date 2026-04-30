@@ -3,7 +3,11 @@
   "build_number": 20,
   "release_date": "2026-04-30",
   "force_update": false,
-  "changelog": "Client stability and release fixes",
+  "changelog": [
+    "Windows auto-connect now prefers WireGuard first",
+    "Connectivity gate correctly handles already-connected same exit IP",
+    "Client stability and release fixes"
+  ],
   "downloads": {
     "windows": {
       "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.20/Breathe_Windows_2.3.20_Setup.exe",
