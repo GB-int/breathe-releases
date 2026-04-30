@@ -1,22 +1,20 @@
 {
-  "version": "2.3.20",
-  "build_number": 20,
-  "release_date": "2026-04-30",
-  "force_update": false,
-  "changelog": [
-    "Windows auto-connect now prefers WireGuard first",
-    "Connectivity gate correctly handles already-connected same exit IP",
-    "Client stability and release fixes"
-  ],
   "downloads": {
-    "windows": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.20/Breathe_Windows_2.3.20_Setup.exe",
-      "size_mb": 29
-    },
     "android": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.20/Breathe_Android_2.3.20.apk",
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.21/Breathe_Android_2.3.21.apk",
       "size_mb": 89
+    },
+    "windows": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.21/Breathe_Windows_2.3.21_Setup.exe",
+      "size_mb": 29
     }
   },
-  "min_version": "1.0.0"
+  "min_version": "1.0.0",
+  "release_date": "2026-05-01",
+  "force_update": false,
+  "version": "2.3.21",
+  "changelog": [
+    "Client stability and release fixes"
+  ],
+  "build_number": 21
 }
