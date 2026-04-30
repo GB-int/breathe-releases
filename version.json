@@ -1,18 +1,18 @@
 {
-  "min_version": "1.0.0",
-  "force_update": false,
+  "version": "2.3.20",
+  "build_number": 20,
   "release_date": "2026-04-30",
+  "force_update": false,
   "changelog": "Client stability and release fixes",
   "downloads": {
-    "android": {
-      "size_mb": 89,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.19/Breathe_Android_2.3.19.apk"
-    },
     "windows": {
-      "size_mb": 29,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.19/Breathe_Windows_2.3.19_Setup.exe"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.20/Breathe_Windows_2.3.20_Setup.exe",
+      "size_mb": 29
+    },
+    "android": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.20/Breathe_Android_2.3.20.apk",
+      "size_mb": 89
     }
   },
-  "version": "2.3.19",
-  "build_number": 19
+  "min_version": "1.0.0"
 }
