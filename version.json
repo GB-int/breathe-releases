@@ -1,4 +1,6 @@
 {
+  "min_version": "1.0.0",
+  "force_update": false,
   "downloads": {
     "android": {
       "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.21/Breathe_Android_2.3.21.apk",
@@ -9,12 +11,10 @@
       "size_mb": 29
     }
   },
-  "min_version": "1.0.0",
-  "release_date": "2026-05-01",
-  "force_update": false,
+  "build_number": 21,
   "version": "2.3.21",
+  "release_date": "2026-05-01",
   "changelog": [
     "Client stability and release fixes"
-  ],
-  "build_number": 21
+  ]
 }
