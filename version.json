@@ -1,20 +1,21 @@
 {
+  "build_number": 22,
   "min_version": "1.0.0",
+  "changelog": [
+    "Fixed Windows WireGuard routing for the production server.",
+    "Restored reliable WireGuard connectivity checks with the bundled sing-box runtime."
+  ],
+  "release_date": "2026-05-09",
   "force_update": false,
   "downloads": {
-    "android": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.21/Breathe_Android_2.3.21.apk",
-      "size_mb": 89
-    },
     "windows": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.21/Breathe_Windows_2.3.21_Setup.exe",
-      "size_mb": 29
+      "size_mb": 29,
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.22/Breathe_Windows_2.3.22_Setup.exe"
+    },
+    "android": {
+      "size_mb": 89,
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.22/Breathe_Android_2.3.22.apk"
     }
   },
-  "build_number": 21,
-  "version": "2.3.21",
-  "release_date": "2026-05-01",
-  "changelog": [
-    "Client stability and release fixes"
-  ]
+  "version": "2.3.22"
 }
