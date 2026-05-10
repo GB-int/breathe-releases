@@ -1,24 +1,21 @@
 {
-  "force_update": false,
-  "release_date": "2026-05-10",
-  "build_number": 25,
+  "version": "2.3.26",
   "downloads": {
     "windows": {
-      "size_mb": 32,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.25/Breathe_Windows_2.3.25_Setup.exe"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.26/Breathe_Windows_2.3.26_Setup.exe",
+      "size_mb": 32
     },
     "android": {
-      "size_mb": 89,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.25/Breathe_Android_2.3.25.apk"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.26/Breathe_Android_2.3.26.apk",
+      "size_mb": 0
     }
   },
-  "changelog": [
-    "WireGuard production transport update.",
-    "Added native Windows WireGuard backend with bundled WireGuard runtime.",
-    "Added HTTPS/TCP bridge support for WireGuard on filtered networks.",
-    "Added DNS leak guard for native WireGuard sessions.",
-    "Routed prod WireGuard egress through WARP."
-  ],
   "min_version": "1.0.0",
-  "version": "2.3.25"
+  "changelog": [
+    "Fix false positive in foreign runtime detection.",
+    "Fixed PowerShell script that matched the current Breathe.exe process as a foreign instance."
+  ],
+  "build_number": 26,
+  "release_date": "2026-05-10",
+  "force_update": false
 }
