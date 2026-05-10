@@ -1,21 +1,24 @@
 {
-  "min_version": "1.0.0",
-  "version": "2.3.24",
+  "force_update": false,
+  "release_date": "2026-05-10",
+  "build_number": 25,
   "downloads": {
     "windows": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.24/Breathe_Windows_2.3.24_Setup.exe",
-      "size_mb": 29
+      "size_mb": 32,
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.25/Breathe_Windows_2.3.25_Setup.exe"
     },
     "android": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.24/Breathe_Android_2.3.24.apk",
-      "size_mb": 89
+      "size_mb": 89,
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.25/Breathe_Android_2.3.25.apk"
     }
   },
-  "release_date": "2026-05-09",
-  "build_number": 24,
   "changelog": [
-    "Fixed Windows WireGuard DNS by routing DNS-over-HTTPS through the WireGuard outbound instead of the local `10.66.0.1:53` hop.",
-    "Keeps DNS inside the VPN path while avoiding the local AdGuard TCP DNS timeout seen in support diagnostics."
+    "WireGuard production transport update.",
+    "Added native Windows WireGuard backend with bundled WireGuard runtime.",
+    "Added HTTPS/TCP bridge support for WireGuard on filtered networks.",
+    "Added DNS leak guard for native WireGuard sessions.",
+    "Routed prod WireGuard egress through WARP."
   ],
-  "force_update": false
+  "min_version": "1.0.0",
+  "version": "2.3.25"
 }
