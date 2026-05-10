@@ -1,8 +1,8 @@
 {
-  "version": "2.3.26",
+  "version": "2.3.27",
   "downloads": {
     "windows": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.26/Breathe_Windows_2.3.26_Setup.exe",
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.27/Breathe_Windows_2.3.27_Setup.exe",
       "size_mb": 32
     },
     "android": {
@@ -12,10 +12,9 @@
   },
   "min_version": "1.0.0",
   "changelog": [
-    "Fix false positive in foreign runtime detection.",
-    "Fixed PowerShell script that matched the current Breathe.exe process as a foreign instance."
+    "Fix foreign runtime detection — pass client PID instead of PowerShell PID."
   ],
-  "build_number": 26,
+  "build_number": 27,
   "release_date": "2026-05-10",
   "force_update": false
 }
