@@ -6,8 +6,8 @@
       "size_mb": 32
     },
     "android": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.26/Breathe_Android_2.3.26.apk",
-      "size_mb": 0
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.27/Breathe_Android_2.3.27.apk",
+      "size_mb": 89
     }
   },
   "min_version": "1.0.0",
