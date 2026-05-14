@@ -1,20 +1,20 @@
 {
-  "version": "2.3.27",
   "downloads": {
-    "windows": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.27/Breathe_Windows_2.3.27_Setup.exe",
-      "size_mb": 32
-    },
     "android": {
       "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.27/Breathe_Android_2.3.27.apk",
       "size_mb": 89
+    },
+    "windows": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.27/Breathe_Windows_2.3.27_Setup.exe",
+      "size_mb": 32
     }
   },
-  "min_version": "1.0.0",
   "changelog": [
     "Fix foreign runtime detection — pass client PID instead of PowerShell PID."
   ],
+  "release_date": "2026-05-14",
   "build_number": 27,
-  "release_date": "2026-05-10",
-  "force_update": false
+  "version": "2.3.27",
+  "force_update": false,
+  "min_version": "1.0.0"
 }
