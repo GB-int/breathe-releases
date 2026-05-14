@@ -1,21 +1,21 @@
 {
+  "version": "2.3.29",
   "downloads": {
-    "windows": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.28/Breathe_Windows_2.3.28_Setup.exe",
-      "size_mb": 43
-    },
     "android": {
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.28/Breathe_Android_2.3.28.apk",
-      "size_mb": 89
+      "size_mb": 89,
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.29/Breathe_Android_2.3.29.apk"
+    },
+    "windows": {
+      "size_mb": 32,
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.29/Breathe_Windows_2.3.29_Setup.exe"
     }
   },
-  "force_update": false,
-  "build_number": 28,
   "changelog": [
-    "Fixed Windows installer startup on clean systems by bundling the required Visual C++ runtime.",
-    "Fixed Windows registration TLS failures when the local certificate store misses the current ZeroSSL/Sectigo issuer chain."
+    "Fixed Windows WireGuard startup by using the bundled outbound runtime path.",
+    "Includes Windows installer runtime and certificate trust fixes from v2.3.28."
   ],
-  "release_date": "2026-05-14",
   "min_version": "1.0.0",
-  "version": "2.3.28"
+  "build_number": 29,
+  "release_date": "2026-05-14",
+  "force_update": false
 }
