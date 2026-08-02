@@ -2,16 +2,23 @@
   "schema_version": 1,
   "channel": "website-preview",
   "verified": true,
-  "release_id": "v2.4.0-preview.4",
+  "release_id": "v2.4.0-preview.5",
   "version": "2.4.0",
   "build_number": 32,
   "force_update": false,
-  "source_revision": "26dd958dae779697d5f944715fae70ef6c62a236",
+  "source_revision": "a4ad35fe43173f67419679ec656f791e46e79082",
   "downloads": {
     "windows": {
       "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.0-preview.4/Breathe_Windows_2.4.0_Setup.exe",
       "size_bytes": 31058913,
-      "sha256": "a4101e1282a2331bec40e7f3e790f246bf94474098f31209533de8b229135041"
+      "sha256": "a4101e1282a2331bec40e7f3e790f246bf94474098f31209533de8b229135041",
+      "source_revision": "26dd958dae779697d5f944715fae70ef6c62a236"
+    },
+    "android": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.0-preview.5/Breathe_Android_2.4.0.apk",
+      "size_bytes": 72603237,
+      "sha256": "e44438acbd56cb33db066eb22ab06670af652233917926879cd60d1172399d22",
+      "source_revision": "a4ad35fe43173f67419679ec656f791e46e79082"
     }
   }
 }
