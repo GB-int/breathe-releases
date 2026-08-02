@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "channel": "website-preview",
+  "verified": true,
+  "release_id": "v2.4.0-preview.1",
+  "version": "2.4.0",
+  "build_number": 32,
+  "force_update": false,
+  "source_revision": "f7137c35ebd04de503015d10435902aea5fd8b25",
+  "downloads": {
+    "windows": {
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.0-preview.1/Breathe_Windows_2.4.0_Setup.exe",
+      "size_bytes": 31058659,
+      "sha256": "1a7a3567c13d054ab8828d57c3bcd4af552fe6e716a0b43d1ed299c9fd72c610"
+    }
+  }
+}
