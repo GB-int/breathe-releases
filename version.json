@@ -1,21 +1,22 @@
 {
-  "release_date": "2026-05-18",
-  "build_number": 31,
-  "force_update": false,
-  "version": "2.3.31",
+  "build_number": 44,
   "changelog": [
-    "Fixed Breeze WebRTC leak detection on Windows by blocking STUN/TURN probe traffic inside the VPN route.",
-    "Stabilized Breeze UDP handling for Reality connections."
+    "Приложение переведено на новый контур Breathe.",
+    "Обновлены подключение, авторизация и проверка подписки.",
+    "Повышена стабильность обновления и восстановления соединения."
   ],
   "downloads": {
-    "windows": {
-      "size_mb": 32,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.31/Breathe_Windows_2.3.31_Setup.exe"
-    },
     "android": {
-      "size_mb": 89,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.3.31/Breathe_Android_2.3.31.apk"
+      "size_mb": 69,
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.0/Breathe_Android_2.4.0.apk"
+    },
+    "windows": {
+      "size_mb": 30,
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.0/Breathe_Windows_2.4.0_Setup.exe"
     }
   },
-  "min_version": "1.0.0"
+  "force_update": false,
+  "min_version": "1.0.0",
+  "release_date": "2026-08-08",
+  "version": "2.4.0"
 }
