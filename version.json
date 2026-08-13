@@ -1,22 +1,22 @@
 {
-  "build_number": 47,
+  "build_number": 49,
   "changelog": [
-    "Исправлено обновление Windows: установщик продолжает работу после закрытия приложения.",
-    "В диагностику добавлена версия клиента.",
-    "Исправлены распознавание платных аккаунтов, Telegram-привязка и повторная обработка платежей."
+    "Исправлено обнаружение обновлений после запуска на Android и Windows.",
+    "Окно обновления больше не теряется при переходе со стартового экрана.",
+    "Обновление устанавливается через проверенные SHA-256 артефакты."
   ],
   "downloads": {
     "android": {
       "size_mb": 69,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.0/Breathe_Android_2.4.0.apk"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.2/Breathe_Android_2.4.2.apk"
     },
     "windows": {
       "size_mb": 30,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.0/Breathe_Windows_2.4.0_Setup.exe"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.2/Breathe_Windows_2.4.2_Setup.exe"
     }
   },
   "force_update": false,
   "min_version": "1.0.0",
-  "release_date": "2026-08-12",
-  "version": "2.4.0"
+  "release_date": "2026-08-13",
+  "version": "2.4.2"
 }
