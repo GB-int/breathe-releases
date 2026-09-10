@@ -1,23 +1,22 @@
 {
-  "build_number": 53,
+  "build_number": 55,
   "changelog": [
-    "Исправлено подключение STORM и BREEZE на Windows до запуска туннеля.",
-    "Исправлено восстановление профиля и настроек на Android после обновления.",
-    "Обновлены группы российских сервисов и применение правил маршрутизации.",
-    "Улучшена синхронизация состояния подключения клиента."
+    "Улучшили диагностические отчёты: сохраняется история последней ошибки подключения.",
+    "Добавили основной и резервный API для устойчивой работы приложения.",
+    "Расширили безопасную диагностику подключения и отображение отчётов в поддержке."
   ],
   "downloads": {
     "android": {
       "size_mb": 69,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.4/Breathe_Android_2.4.4.apk"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.5/Breathe_Android_2.4.5.apk"
     },
     "windows": {
       "size_mb": 30,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.4/Breathe_Windows_2.4.4_Setup.exe"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.5/Breathe_Windows_2.4.5_Setup.exe"
     }
   },
   "force_update": false,
   "min_version": "1.0.0",
-  "release_date": "2026-08-25",
-  "version": "2.4.4"
+  "release_date": "2026-09-10",
+  "version": "2.4.5"
 }
