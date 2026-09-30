@@ -1,22 +1,23 @@
 {
-  "build_number": 55,
+  "build_number": 58,
   "changelog": [
-    "Улучшили диагностические отчёты: сохраняется история последней ошибки подключения.",
-    "Добавили основной и резервный API для устойчивой работы приложения.",
-    "Расширили безопасную диагностику подключения и отображение отчётов в поддержке."
+    "Объединение аккаунтов приложения и Telegram с подтверждением в обоих местах.",
+    "Код подключения Happ сразу в Telegram с кнопкой копирования.",
+    "Простой вход в бота: новый пользователь или привязка существующего аккаунта; короткая инструкция Apple.",
+    "Копирование кода привязки Telegram в профиле приложения."
   ],
   "downloads": {
     "android": {
-      "size_mb": 69,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.5/Breathe_Android_2.4.5.apk"
+      "size_mb": 70,
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.7/Breathe_Android_2.4.7.apk"
     },
     "windows": {
       "size_mb": 30,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.5/Breathe_Windows_2.4.5_Setup.exe"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.7/Breathe_Windows_2.4.7_Setup.exe"
     }
   },
   "force_update": false,
   "min_version": "1.0.0",
-  "release_date": "2026-09-10",
-  "version": "2.4.5"
+  "release_date": "2026-09-30",
+  "version": "2.4.7"
 }
