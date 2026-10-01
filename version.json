@@ -1,23 +1,21 @@
 {
-  "build_number": 60,
+  "build_number": 61,
   "changelog": [
-    "Понятные подписи режима: по умолчанию через VPN или напрямую.",
-    "Windows: исправлена обработка полного закрытия клиента установщиком.",
-    "Windows: добавлена детализация диагностики подключения.",
-    "Нестабильность Breeze исследуется; этот выпуск не содержит её исправления."
+    "Установщик Windows автоматически закрывает старую версию Breathe в трее перед обновлением.",
+    "Исправлен конфликт правил приложений, мешавший подключению STORM в режиме «Напрямую»."
   ],
   "downloads": {
     "android": {
       "size_mb": 70,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.9/Breathe_Android_2.4.9.apk"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.10/Breathe_Android_2.4.10.apk"
     },
     "windows": {
       "size_mb": 30,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.9/Breathe_Windows_2.4.9_Setup.exe"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.10/Breathe_Windows_2.4.10_Setup.exe"
     }
   },
   "force_update": false,
   "min_version": "1.0.0",
   "release_date": "2026-10-01",
-  "version": "2.4.9"
+  "version": "2.4.10"
 }
