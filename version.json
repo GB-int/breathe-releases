@@ -1,21 +1,23 @@
 {
-  "build_number": 61,
+  "build_number": 62,
   "changelog": [
-    "Установщик Windows автоматически закрывает старую версию Breathe в трее перед обновлением.",
-    "Исправлен конфликт правил приложений, мешавший подключению STORM в режиме «Напрямую»."
+    "Понятные названия режима по умолчанию: «Без VPN» и «Через VPN», пояснения к спискам раздельного туннеля.",
+    "Увеличена область нажатия стрелок перехода в настройках.",
+    "Исключения приложений сохраняются даже при неудачном переподключении.",
+    "В Windows подключение ожидает готовности VPN-адаптера и маршрутов; исправлен учёт регистра в правилах приложений."
   ],
   "downloads": {
     "android": {
       "size_mb": 70,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.10/Breathe_Android_2.4.10.apk"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.11/Breathe_Android_2.4.11.apk"
     },
     "windows": {
       "size_mb": 30,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.10/Breathe_Windows_2.4.10_Setup.exe"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.11/Breathe_Windows_2.4.11_Setup.exe"
     }
   },
   "force_update": false,
   "min_version": "1.0.0",
-  "release_date": "2026-10-01",
-  "version": "2.4.10"
+  "release_date": "2026-10-02",
+  "version": "2.4.11"
 }
