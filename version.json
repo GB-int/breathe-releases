@@ -1,23 +1,22 @@
 {
-  "build_number": 62,
+  "build_number": 63,
   "changelog": [
-    "Понятные названия режима по умолчанию: «Без VPN» и «Через VPN», пояснения к спискам раздельного туннеля.",
-    "Увеличена область нажатия стрелок перехода в настройках.",
-    "Исключения приложений сохраняются даже при неудачном переподключении.",
-    "В Windows подключение ожидает готовности VPN-адаптера и маршрутов; исправлен учёт регистра в правилах приложений."
+    "Windows: исправлена проверка покрытия маршрутов TUN с учётом исключённых сетей.",
+    "Windows: расширена диагностика запуска TUN — состояние адаптера и маршрутов, этап операции и код ошибки Windows; важные предупреждения сохраняются в SUP.",
+    "Android: версия синхронизирована; маршрутизация и ключ подписи сохранены."
   ],
   "downloads": {
     "android": {
       "size_mb": 70,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.11/Breathe_Android_2.4.11.apk"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.12/Breathe_Android_2.4.12.apk"
     },
     "windows": {
       "size_mb": 30,
-      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.11/Breathe_Windows_2.4.11_Setup.exe"
+      "url": "https://github.com/GB-int/breathe-releases/releases/download/v2.4.12/Breathe_Windows_2.4.12_Setup.exe"
     }
   },
   "force_update": false,
   "min_version": "1.0.0",
-  "release_date": "2026-10-02",
-  "version": "2.4.11"
+  "release_date": "2026-10-03",
+  "version": "2.4.12"
 }
